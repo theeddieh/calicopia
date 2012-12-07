@@ -10,8 +10,11 @@ deparment and art and architecture department forcused on civic engagement.
 
 Its purpose is to aid comsumers in selecting fresh, local, seasonal produce.
 
+Screenshots:
+<a href="http://imgur.com/a/quxlC">http://imgur.com/a/quxlC</a>
+
 For more notes on its development see: 
-somerandomdude.com/2012/06/19/designing-civic-engagement-in-the-classroom-our-experiences
+<a href="somerandomdude.com/2012/06/19/designing-civic-engagement-in-the-classroom-our-experiences">somerandomdude.com/2012/06/19/designing-civic-engagement-in-the-classroom-our-experiences</a>
 
 Installing
 ----------
