@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+  >
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/frameLayout1">
+    <LinearLayout android:id="@+id/linearLayoutBack1" android:background="#d9dce0" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical"
+    android:paddingLeft="6dp"
+  android:paddingRight="6dp"
+    >
+	    <ListView android:id="@+id/listView1" 
+	    	android:layout_height="490dp" 
+	    	android:layout_width="match_parent" 
+	    	android:textStyle="bold" android:fadingEdge="none"
+	    	></ListView>
+	    <include layout="@layout/buttonbar"/>
+    </LinearLayout>
+    
+    <include layout="@layout/dropdownlayout" android:id="@+id/dropDLayout" />
+    </RelativeLayout>
+    
+</LinearLayout>

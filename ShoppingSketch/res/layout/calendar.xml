@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+   <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/frameLayout1">
+     
+   <LinearLayout android:id="@+id/linearLayoutBack2" 
+android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical"
+    android:paddingLeft="6dp"
+  android:paddingRight="6dp" android:background="#d9dce0">
+  
+  <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" 
+  android:layout_width="match_parent" android:orientation="vertical">
+  
+      <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" 
+      	android:layout_width="match_parent" android:gravity="center_vertical|center_horizontal">
+      	<TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#94b734" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="MARCH" android:id="@+id/b1" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+	    <TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#7ead38"
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="APRIL" android:id="@+id/b2" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+	    <TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#72ab61" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="MAY" android:id="@+id/b3" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+      </LinearLayout>
+      
+      <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" 
+      	android:layout_width="match_parent" android:gravity="center_vertical|center_horizontal">
+      	<TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#be0040" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="JUNE" android:id="@+id/b4" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+	    <TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#ab013d" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="JULY" android:id="@+id/b5" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+	    <TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#8b1235" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="AUGUST" android:id="@+id/b6" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+      </LinearLayout>
+      
+      <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" 
+      	android:layout_width="match_parent" android:gravity="center_vertical|center_horizontal">
+      	<TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#f7ef73" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="SEPTEMBER" android:id="@+id/b7" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+	    <TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#f6eb48" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="OCTOBER" android:id="@+id/b8" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+	    <TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#f1d001" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="NOVEMBER" android:id="@+id/b9" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+      </LinearLayout>
+      
+      <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" 
+      	android:layout_width="match_parent" android:gravity="center_vertical|center_horizontal">
+      	<TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#a6cccc" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="DECEMBER" android:id="@+id/b10" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+	    <TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#79b4af" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="JANUARY" android:id="@+id/b11" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+	    <TextView  android:gravity="center_vertical|center_horizontal" 
+	        android:background="#1d9a99" 
+	        android:textStyle="bold" android:textColor="#151B54"
+	        android:text="FEBRUARY" android:id="@+id/b12" android:layout_width="115dp" android:layout_height="110dp"></TextView>
+      </LinearLayout>
+  
+  </LinearLayout>
+  
+    <include layout="@layout/buttonbar"/>
+  	  </LinearLayout>
+  	   <include layout="@layout/dropdownlayout" android:id="@+id/dropDLayout" />
+  	  </RelativeLayout>
+</LinearLayout>

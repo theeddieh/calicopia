@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:id="@+id/laceLayout"
+  android:layout_marginBottom="20dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+   
+            <LinearLayout android:layout_height="300dp" android:background="@android:color/white" android:layout_width="match_parent" 
+		    android:id="@+id/linearLayoutContentDrop" android:orientation="vertical"
+		    android:paddingLeft="15dp" android:paddingRight="15dp">
+		    
+		        <TextView android:layout_width="fill_parent"  android:paddingTop="15dp" android:paddingBottom="15dp"
+			        android:textStyle="bold|italic" android:textColor="#00949c"
+			        android:text="Welcome to Calicopia!" android:id="@+id/button2" android:layout_height="wrap_content"></TextView>
+		    	<TextView android:textStyle="italic" android:text="This is an app for the California fruit and vegetable consumer who has a few questions: When is it ripe? How can I tell? Can I freeze this for later?What is this strange fruit?" 
+		    	android:id="@+id/textView1" android:textColor="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content"
+		    	android:paddingBottom="30dp"></TextView>
+		    	<TextView android:textStyle="italic" android:text="This is for you, the orange variety overwhelmed, the carrot freezing curious, the green banana cringer. Use this app to expand your variety and freshness knowledge, and to be an informed seasonal shopper! Be fruitful and happy vegging! " 
+		    	android:id="@+id/textView1" android:textColor="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content"
+		    	android:paddingBottom="30dp"></TextView>
+		    	
+		    </LinearLayout>
+		    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" 
+		    android:src="@drawable/lay" android:id="@+id/imageLace"  android:layout_marginRight="10dp"
+		    android:layout_gravity="bottom|right"></ImageView>
+		    <TextView android:text="" android:id="@+id/textView2" android:layout_marginTop="400dp" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+      
+     
+</LinearLayout>

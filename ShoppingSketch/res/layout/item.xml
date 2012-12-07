@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+ >
+ <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/frameLayout1">
+    <LinearLayout android:id="@+id/linearLayoutBack2" 
+android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical"
+    android:paddingLeft="6dp"
+  android:paddingRight="6dp" android:background="#d9dce0">
+    <TextView android:background="#a2c9c4" 
+    android:gravity="center_vertical|left" android:id="@+id/textView1" 
+    	android:text="TextView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    	android:paddingLeft="6dp"
+		android:paddingTop="20dp"
+		android:paddingBottom="20dp"
+    	android:textSize="16dp" 
+    	android:textColor="#151B54" 
+    	></TextView>
+	  <LinearLayout android:background="#a2c9c4" android:id="@+id/linearLayout1" android:layout_height="430dp" 
+	  android:layout_width="match_parent" android:orientation="vertical" 
+	  android:paddingLeft="6dp" android:paddingRight="6dp">
+	      <ScrollView android:layout_width="match_parent" android:fadingEdge="none" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+	          <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="match_parent"
+	          android:orientation="vertical" >
+	          <TextView android:text="NUTRITIONAL INFO" android:textColor="#ce6c2a" android:id="@+id/bNut" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:background="@android:color/white" 
+			android:paddingLeft="6dp" android:paddingTop="15dp" android:textStyle="italic"
+			android:paddingBottom="15dp"></TextView>
+			
+	      <TextView android:text="TextView" android:id="@+id/textViewNut" android:background="@android:color/white" 
+	       android:layout_width="fill_parent" android:textColor="#646364" 
+	       android:paddingLeft="15dp"  android:paddingRight="15dp" android:paddingBottom="20dp"
+	       android:textStyle="italic" android:textSize="13dp"
+	      android:layout_height="wrap_content"></TextView>
+	      
+		<TextView android:text="CHOOSING FRESH" android:layout_marginTop="2dp" android:textColor="#ce6c2a" android:id="@+id/bCho" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:background="@android:color/white" 
+			android:paddingLeft="6dp" android:paddingTop="15dp" android:textStyle="italic"
+			android:paddingBottom="15dp"></TextView>
+			
+			<TextView android:text="TextView" android:id="@+id/textViewCho" android:background="@android:color/white" 
+	       android:layout_width="fill_parent" android:textColor="#646364" 
+	       android:paddingLeft="15dp"  android:paddingRight="15dp" android:paddingBottom="20dp"
+	       android:textStyle="italic" android:textSize="13dp"
+	      android:layout_height="wrap_content"></TextView>
+	      
+		<TextView android:text="STORAGE TIPS" android:layout_marginTop="2dp" android:textColor="#ce6c2a" android:id="@+id/bSto" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:background="@android:color/white" 
+			android:paddingLeft="6dp" android:paddingTop="15dp" android:textStyle="italic"
+			android:paddingBottom="15dp"></TextView>
+			
+			<TextView android:text="TextView" android:id="@+id/textViewSto" android:background="@android:color/white" 
+	       android:layout_width="fill_parent" android:textColor="#646364" 
+	       android:paddingLeft="15dp"  android:paddingRight="15dp" android:paddingBottom="20dp"
+	       android:textStyle="italic" android:textSize="13dp"
+	      android:layout_height="wrap_content"></TextView>
+	      
+	      <TextView android:text="VARIETIES" android:layout_marginTop="2dp" android:textColor="#ce6c2a" android:id="@+id/bVar" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:background="@android:color/white" 
+			android:paddingLeft="6dp" android:paddingTop="15dp" android:textStyle="italic"
+			android:paddingBottom="15dp"></TextView>
+			<TextView android:text="TextView" android:id="@+id/textViewVar" android:background="@android:color/white" 
+	       android:layout_width="fill_parent" android:textColor="#646364" 
+	       android:paddingLeft="15dp"  android:paddingRight="15dp" android:paddingBottom="20dp"
+	       android:textStyle="italic" android:textSize="13dp"
+	      android:layout_height="wrap_content"></TextView>
+	          </LinearLayout>
+	      </ScrollView>
+	      
+     </LinearLayout>
+    
+    <include layout="@layout/buttonbar"/>
+  	  </LinearLayout>
+  	  <include layout="@layout/dropdownlayout" android:id="@+id/dropDLayout" />
+  	  </RelativeLayout>
+</LinearLayout>

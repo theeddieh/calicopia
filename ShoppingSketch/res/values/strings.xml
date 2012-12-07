@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">It is a Calicopia!</string>
+    <string name="app_name">Calicopia</string>
+    <string-array name="items_array">
+        <item>Apple</item>
+        <item>Orange</item>
+        <item>Banana</item>
+        <item>Pear</item>
+        <item>Lemon</item>
+        <item>Carrot</item>
+        <item>Spinach</item>
+        <item>Tomato</item>
+        <item>Potato</item>
+        <item>Kale</item>
+        <item>Strawberry</item>
+        <item>Cucumber</item>
+        <item>Onion</item>
+        <item>Garlic</item>
+        <item>Broccoli</item>
+        <item>Zucchini</item>
+        <item>Grapefruit</item>
+        <item>Avocado</item>
+        <item>Green beans</item>
+    </string-array>
+    <string-array name="messages_array">
+        <item>Tomatoes are not vegetables, are fruits</item>
+        <item>Potatoes are awesome!</item>
+        <item>A bro never keeps eye contact while eating a banana</item>
+    </string-array>
+</resources>
