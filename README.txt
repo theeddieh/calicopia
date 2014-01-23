@@ -10,7 +10,7 @@ deparment and art and architecture department forcused on civic engagement.
 
 Its purpose is to aid comsumers in selecting fresh, local, seasonal produce.
 
-Screenshots: imgur.com/a/quxlC
+Screenshots: http://imgur.com/a/quxlC
 
 To download from Google Play: https://play.google.com/store/apps/details?id=com.dferreras.project#?t=W251bGwsMSwxLDIxMiwiY29tLmRmZXJyZXJhcy5wcm9qZWN0Il0.
 
